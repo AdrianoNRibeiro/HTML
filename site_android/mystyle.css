@@ -117,6 +117,7 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
+    border: 1px solid #83e1ad;
 }
 
 nav > a:hover {
