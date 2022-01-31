@@ -142,6 +142,7 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 10px;
     font-weight: normal;
+    
 }
 
 main p {
