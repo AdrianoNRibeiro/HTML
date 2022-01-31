@@ -117,6 +117,7 @@ nav > a {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
+    max-width: auto;
 }
 
 nav > a:hover {
