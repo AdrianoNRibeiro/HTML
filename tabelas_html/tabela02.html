@@ -13,11 +13,26 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            border: 1px solid black;
         }
 
         thead,tfoot {
@@ -28,6 +43,15 @@
         td.numero {
             text-align: right;
         }
+
+        tbody tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: gray
+        }
+
     </style>
 </head>
 <body>
@@ -43,10 +67,13 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>
+            População das Unidades Federativas
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -62,9 +89,93 @@
                 <td>Rio de Janeiro</td>
                 <td class="numero">17.463.349</td>
             </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7.463.349</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">3.463.349</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">463.349</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46.649.132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.411.923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.463.349</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7.463.349</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">3.463.349</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">463.349</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46.649.132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.411.923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.463.349</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7.463.349</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">3.463.349</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">463.349</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">46.649.132</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.411.923</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.463.349</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="numero">7.463.349</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="numero">3.463.349</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">463.349</td>
+            </tr>
         </tbody>
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="numero"><strong>0000000000</strong></td>
         </tfoot>
     </table>
