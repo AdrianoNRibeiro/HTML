@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Lateral Extinçãot</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 20px 5px;
+        }
+
+        a:hover {
+            background-color: rgb(176, 224, 230);
+            color: black;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: url(imagens/fundo_destruicao.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+
+        }
+
+        ul {
+            list-style: none;
+            position: absolute;
+            top: 60px;
+            width: 100%;
+        }
+
+        img {
+            width: 40px;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"]:checked ~ nav {
+            transform: translateX(350px);
+        }
+
+        nav {
+            background-color: rgba(16, 16, 16, .5);
+            width: 350px;
+            left: -350px;
+            height: 100vh;
+            position: absolute;
+            transition: all .5s;
+        }
+
+        label {
+            padding: 15px;
+            position: absolute;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <img src="imagens/risco_menu.png" alt="menu hamburger">
+    </label>
+    <nav id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Leitura</a></li>
+            <li><a href="#">Personagens</a></li>
+            <li><a href="#">Cenários</a></li>
+            <li><a href="#">Sobre o autor</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
