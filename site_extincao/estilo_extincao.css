@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+:root {
+    /*fontes*/
+
+
+
+
+    /*cores*/
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: justify;
+    width: auto;
+}
+
+header > h1#titulo {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+nav {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1#capitulo {
+    text-align: center;
+    padding-bottom: 20px;
+}
