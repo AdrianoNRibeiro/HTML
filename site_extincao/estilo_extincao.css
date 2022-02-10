@@ -1,13 +1,23 @@
 @charset "UTF-8";
-
+/*imports*/
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
 :root {
     /*fontes*/
-
+    --fontTitle: 'Stardos Stencil', cursive;
+    --fontChapter: 'Roboto Condensed', sans-serif;
+    --fontMain: 'Montserrat', sans-serif;
+    
 
 
 
     /*cores*/
+    --corTitle: #BC442D;
+    --corBack: #38302a;
+    --corBackDiv: #c8c8c8a2;
 }
 
 
@@ -19,27 +29,130 @@
 body {
     text-align: justify;
     width: auto;
+    background-image: linear-gradient(to right, black, grey );
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: radial-gradient(grey 10%, black);
 }
 
 header > h1#titulo {
     text-align: center;
-    padding-bottom: 20px;
-}
-
-nav {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    color: var(--corTitle);
+    font-family: var(--fontTitle);
+    font-size: 8em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.589);
     
 }
 
-h1#capitulo {
+header > p {
+    font-family: var(--fontMain);
+    color: white;
     text-align: center;
+    font-style: italic;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    text-align: center;
+}
+
+nav > ul {
+    padding: 10px;
+}
+nav > ul > li {
+    display: inline;
+    padding: 10px;   
+    
+}
+
+nav > ul > li > a {
+    font-family: var(--fontTitle);
+    text-decoration: none;
+    font-size: 2em;
+    padding: 5px;
+    color: var(--corTitle);
+}
+
+nav > ul > li > a:hover {
+    border-bottom: 4px solid var(--corTitle);
+}
+
+main > section#destruction {
+    background-image: url(imagens/fundo_destruido.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: 100%;
+}
+
+main > section#destruction02 {
+    background-image: url(imagens/vidros.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+main > section#destruction03 {
+    background-image: url(imagens/casa_abandonada.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+
+h1#capitulo {
+    padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.253);
+    font-family: var(--fontChapter);
+    font-size: 4em;
+    color: var(--corTitle);
+}
+
+div {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+
+div > p {
+    text-indent: 50px;
+    padding: 10px 10px 20px 10px;
+    font-size: 2em;
+    font-family: var(--fontMain);
+    color: black;
+    font-weight: 500;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.253);
+    
+}
+
+.contents {
+    background-color: var(--corBackDiv);
+    border: 1px solid black;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.pages {
+    color: white;
+    text-align: center;
+    font-family: var(--fontMain);
+    font-size: 2em;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.253);
+    padding-bottom: 9px;
+    font-weight: bold;
+
+}
+
+footer {
+    text-align: center;
 }
