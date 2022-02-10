@@ -18,6 +18,7 @@
     --corTitle: #BC442D;
     --corBack: #38302a;
     --corBackDiv: #c8c8c8a2;
+    --corHover: #c78679;
 }
 
 
@@ -30,6 +31,10 @@ body {
     text-align: justify;
     min-height: 100vh;
     background-image: linear-gradient(to right, black, grey );
+}
+
+main {
+    margin: auto;
 }
 
 header {
@@ -63,6 +68,7 @@ nav {
     margin-right: auto;
     background-color: black;
     text-align: center;
+    max-width: auto;
 }
 
 nav > ul {
@@ -80,32 +86,37 @@ nav > ul > li > a {
     font-size: 2em;
     padding: 5px;
     color: var(--corTitle);
+    
 }
 
 nav > ul > li > a:hover {
     border-bottom: 4px solid var(--corTitle);
+    color: var(--corHover);
+    
 }
 
 main > section#destruction {
     background-image: url(imagens/fundo_destruido.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
-    background-position: 100%;
+    background-position: center center;
 }
 
 main > section#destruction02 {
-    background-image: url(imagens/vidros.jpg);
+    background-image: url(imagens/casa_destruida.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
 }
 
 main > section#destruction03 {
     background-image: url(imagens/casa_abandonada.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
+    background-position: center;
 }
 
 
@@ -125,6 +136,8 @@ div {
     margin-right: auto;
     margin-bottom: 50px;
     
+    
+    
 }
 
 div > p {
@@ -135,13 +148,15 @@ div > p {
     color: black;
     font-weight: 500;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.253);
-    
 }
 
 .contents {
     background-color: var(--corBackDiv);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.219);
     border-radius: 30px 0px 30px 0px;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.473);
+    box-shadow: 6px 6px 13px rgba(0, 0, 0, 0.473);
+    padding: 10px;
 }
 
 .pages {
@@ -150,11 +165,16 @@ div > p {
     font-family: var(--fontMain);
     font-size: 2em;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.253);
-    padding-bottom: 9px;
+    padding: 15px 15px 9px 15px;
     font-weight: bold;
+    
 
 }
 
 footer {
+    font-family: var(--fontChapter);
     text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
 }
