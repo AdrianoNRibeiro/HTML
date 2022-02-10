@@ -28,11 +28,12 @@
 
 body {
     text-align: justify;
-    width: auto;
+    min-height: 100vh;
     background-image: linear-gradient(to right, black, grey );
 }
 
 header {
+    min-width: 100vh;
     padding-top: 20px;
     padding-bottom: 20px;
     background-image: radial-gradient(grey 10%, black);
@@ -42,7 +43,8 @@ header > h1#titulo {
     text-align: center;
     color: var(--corTitle);
     font-family: var(--fontTitle);
-    font-size: 8em;
+    font-size: 14vh;
+    width: 14wh;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.589);
     
 }
@@ -52,7 +54,7 @@ header > p {
     color: white;
     text-align: center;
     font-style: italic;
-    font-size: 1.7em;
+    font-size: 3vh;
     font-weight: bold;
 }
 
@@ -113,7 +115,7 @@ h1#capitulo {
     text-align: center;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.253);
     font-family: var(--fontChapter);
-    font-size: 4em;
+    font-size: 10vh;
     color: var(--corTitle);
 }
 
