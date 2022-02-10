@@ -27,10 +27,44 @@
     padding: 0;
 }
 
+@media (max-width: 999px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        display: inline;
+        
+    }
+
+    nav > ul > li {
+        width: 100vw;
+        padding: auto;
+        
+    }
+
+    nav > ul > li > a {
+        padding: 30px;
+        
+    }
+
+    header > h1, p {
+        width: 390px;
+        text-align: center;
+    }
+
+    div > p {
+        font-size: 3em;
+        width: auto;
+        text-align: justify;
+    }
+
+}
+
 body {
     text-align: justify;
     min-height: 100vh;
     background-image: linear-gradient(to right, black, grey );
+    font-size: 16px;
 }
 
 main {
@@ -64,11 +98,12 @@ header > p {
 }
 
 nav {
-    margin-left: auto;
-    margin-right: auto;
+    max-width: auto;
+    height: 8vh;
     background-color: black;
     text-align: center;
-    max-width: auto;
+
+    
 }
 
 nav > ul {
@@ -101,6 +136,7 @@ main > section#destruction {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    
 }
 
 main > section#destruction02 {
@@ -109,6 +145,7 @@ main > section#destruction02 {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+   
 }
 
 main > section#destruction03 {
@@ -117,6 +154,7 @@ main > section#destruction03 {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    
 }
 
 
@@ -176,11 +214,13 @@ footer {
     text-align: center;
     font-weight: bold;
     font-style: italic;
+    color: var(--corTitle);
     padding: 10px;
 }
 
-@media screen and (max-width: 320px) {
-    header, nav, main, footer {
-        width: 100%;
-    }
+footer > p > a {
+    font-family: var(--fontMain);
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
 }
