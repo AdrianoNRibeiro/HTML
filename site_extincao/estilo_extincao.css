@@ -31,8 +31,13 @@
     body {
         overflow-x: hidden;
     }
+
+    header > h1#titulo, p {
+        margin: auto;
+    }
     nav {
         display: inline;
+        margin: auto;
         
     }
 
@@ -42,20 +47,19 @@
         
     }
 
-    nav > ul > li > a {
-        padding: 30px;
-        
-    }
-
-    header > h1, p {
-        width: 390px;
-        text-align: center;
-    }
 
     div > p {
         font-size: 3em;
         width: auto;
         text-align: justify;
+    }
+
+    main > section#destruction > h1 {
+        margin: auto;
+    }
+
+    main > section > div.contents {
+        margin: auto;
     }
 
 }
@@ -72,19 +76,18 @@ main {
 }
 
 header {
-    min-width: 100vh;
+    width: auto;
     padding-top: 20px;
     padding-bottom: 20px;
     background-image: radial-gradient(grey 10%, black);
 }
 
 header > h1#titulo {
-    text-align: center;
     color: var(--corTitle);
     font-family: var(--fontTitle);
-    font-size: 14vh;
-    width: 14wh;
+    font-size: 5rem;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.589);
+    text-align: center;
     
 }
 
