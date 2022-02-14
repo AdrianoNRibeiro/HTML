@@ -30,6 +30,7 @@
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;
+        margin: auto;
     }
 
     header > h1#titulo, p {
