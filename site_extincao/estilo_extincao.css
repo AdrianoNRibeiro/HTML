@@ -50,13 +50,13 @@
     }
 
     nav {
-        display: inline;
+        /*display: inline;*/
         margin: auto;
+        padding: 10px 10px 90px 10px;
         
     }
 
     
-
     nav > ul > li {
         width: 100vw;
         padding: auto;
