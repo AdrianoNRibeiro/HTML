@@ -27,15 +27,28 @@
     padding: 0;
 }
 
+@media (max-width: 500px) {
+    section > div > p {
+        font-size: 1.5em;
+    }
+
+    section > div.contents {
+        width: 400px;
+    }
+}
+    
+
+
 body {
-    text-align: justify;
     background-image: linear-gradient(to right, black, grey );
     font-size: 16px;
     width: auto;
+    
 }
 
 main {
     margin: auto;
+    
 }
 
 header {
@@ -93,6 +106,10 @@ nav > ul > li > a:hover {
     
 }
 
+main  {
+    text-align: justify;
+}
+
 main > section#destruction {
     background-image: url(imagens/fundo_destruido.jpg);
     background-repeat: no-repeat;
@@ -120,6 +137,9 @@ main > section#destruction03 {
     
 }
 
+section {
+    margin: auto;
+}
 
 h1#capitulo {
     padding-top: 20px;
@@ -132,7 +152,7 @@ h1#capitulo {
 }
 
 div {
-    width: 999px;
+    max-width: 999px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
@@ -144,7 +164,7 @@ div {
 div > p {
     text-indent: 50px;
     padding: 10px 10px 20px 10px;
-    font-size: 2em;
+    font-size: 2rem;
     font-family: var(--fontMain);
     color: black;
     font-weight: 500;
