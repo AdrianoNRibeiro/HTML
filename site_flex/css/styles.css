@@ -88,6 +88,8 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.575);
+
 }
 
 #about-section {
@@ -266,4 +268,81 @@ footer .detail {
         font-size: 1.2rem;
         margin-top: 18px;
     }
+
+    #navbar img {
+        top: 8px
+    }
+
+    #main-banner {
+        height: 40vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+
+    #banner-info {
+        width: 60%;
+    }
+
+    #banner-info p {
+        margin: 0;
+        width: auto;
+    }
+
+    #about-section {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    #skill-section {
+        margin-top: -35px;
+        width: 90%;
+    }
+
+    #skill-section .container {
+        flex-direction: column;
+    }
+
+    .skills-container h3, .skills-container .subtitle {
+        font-size: 1.3rem;
+    }
+
+    .skills-container {
+        padding: 25px;
+    }
+
+    .skills-container.central {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #jobs-section h2, #jobs-section p {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .job-container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .job-box {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    footer {
+        padding: 50px 15px;
+    }
+    
+    footer form {
+        width: 100%;
+    }
+
+    .detail {
+        margin-top: 50px;
+        display: block;
+    }
+
 }
