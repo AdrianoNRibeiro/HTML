@@ -103,6 +103,63 @@ nav > ul > li > a:hover {
    
 }
 
+main > section#destruction {
+    background-image: url(../imagens/fundo_destruido.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    filter: contrast(80%);
+    
+}
+
+main > section#destruction02 {
+    background-image: url(../imagens/casa_destruida.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    filter: contrast(80%)
+   
+}
+
+main > section#destruction03 {
+    background-image: url(../imagens/casa_abandonada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    filter: contrast(80%)
+    
+}
+
+h1#capitulo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.253);
+    font-family: var(--fontHeader);
+    font-size: 5em;
+    color: var(--corTitle);
+}
+
+div {
+    width: 999px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+div > p {
+    text-indent: 50px;
+    padding: 10px 10px 20px 10px;
+    font-size: 2rem;
+    font-family: var(--fontMain);
+    color: black;
+    font-weight: 500;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.253);
+}
+
 @media(min-width:200px) {
     
     header > h1#titulo {
@@ -116,9 +173,13 @@ nav > ul > li > a:hover {
     nav > ul > li {
         display: block;
     }
-    
+
     nav > ul > li > a {
         font-size: 2rem;
+    }
+
+    h1#capitulo {
+        font-size: 1.9rem;
     }
 
 }
