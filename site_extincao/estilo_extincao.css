@@ -4,12 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');/*TITULO V2*/
 
 :root {
     /*fontes*/
     --fontTitle: 'Stardos Stencil', cursive;
     --fontChapter: 'Roboto Condensed', sans-serif;
     --fontMain: 'Montserrat', sans-serif;
+    --fontTitlev2: 'Nosifer', cursive;
     
 
 
@@ -71,7 +73,7 @@ nav > ul {
 }
 nav > ul > li {
     display: inline;
-    padding: 10px;   
+     
     
 }
 
@@ -79,7 +81,6 @@ nav > ul > li > a {
     font-family: var(--fontTitle);
     text-decoration: none;
     font-size: 2em;
-    padding: 5px;
     color: var(--corTitle);
     
 }
