@@ -29,15 +29,10 @@
 
 body {
     background-image: linear-gradient(to right, black, grey );
-    font-size: 16px;
-    width: 100vw;
     
 }
 
-main {
-    margin: auto;
-    
-}
+
 
 header {
     width: 100vw;
@@ -97,6 +92,7 @@ nav > ul > li > a:hover {
 
 main  {
     text-align: justify;
+    
     
 }
 
@@ -202,64 +198,28 @@ footer > p > a {
     
 }
 
-@media(max-width: 296px) {
+@media(max-width: 300px) {
+
+        header {
+            width: 300px;
+        }
+
+        header > h1#titulo {
+            font-size: 1rem;
+        }
+
+        main {
+            width: 300px;
+        }
+
+        nav {
+            width: 300px;
+        }
+
+        #destruction {
+            width: 300px;
+        }
 
     
-    header > h1#titulo {
-        font-size: 2.5rem;
-        width: 100px;
-        
-    }
-
-    header > p {
-        font-size: 1.1rem;
-    }
-
-    nav > ul > li {
-        display: block;
-        padding: 10px; 
-    }
-
-    nav > ul > li > a {
-        font-size: 1.8rem;
-        
-    }
-
-    nav > ul > li > a:hover {
-        border: 2px solid var(--corTitle);
-    }
-
-    h1#capitulo {
-        font-size: 2.5rem;
-    }
-
-    div {
-        width: 200px;
-        margin-bottom: 20px;
-        
-    }
-
-    div > p {
-        font-size: 0.9rem;
-        line-height: 40px;
-    }
-    .contents {
-        background-color: rgba(255, 255, 255, 0.726);
-    }
-    
-    .pages {
-        font-size: 0.9rem;
-        color: white;
-        text-shadow: 2px 2px 3px black;
-    }
-    
-    footer > p {
-        font-size: 0.7rem;
-    }
-    footer > p > a {
-        display: block;
-        font-size: 0.8rem;
-        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.400);
-    }
 
 } 
