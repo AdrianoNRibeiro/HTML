@@ -241,6 +241,7 @@ body {
     text-align: center;
     padding-top: 50px;
     background-color: #3E7C84;
+    margin-top: 20px;
 }
 
 #jobs-section h2 {
@@ -381,6 +382,10 @@ footer .detail {
         font-size: 1.2rem;
     }
 
+    #navbar-list > li > a {
+        font-size: 1.3rem
+    }
+
     #navbar h2 {
         display: none;
         font-size: 1.2rem;
@@ -401,6 +406,16 @@ footer .detail {
         width: 60%;
     }
 
+    #banner-info > h1 {
+        font-size: 2.5rem;
+        
+    }
+
+    #banner-info > img {
+        width: 70px;
+        height: 70px;
+    }
+
     #banner-info p {
         margin: 0;
         width: auto;
@@ -410,6 +425,14 @@ footer .detail {
         padding: 2rem;
         height: auto;
         padding-bottom: 50px;
+    }
+
+    #about-section > h2 {
+        font-size: 1.8rem;
+    }
+
+    #about-section > p {
+        font-size: 1.3rem;
     }
 
     #skill-section {
