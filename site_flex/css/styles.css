@@ -2,21 +2,32 @@
 
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+@font-face {
+    font-family: 'Augusta';
+    src: url(../fonts/Augusta.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Dalelands';
+    src: url(../fonts/Dalelands\ Uncial.otf) format('opentype');
+}
+
 /*Geral*/
 * {
     margin: 0;
     font-family: 'Roboto', sans-serif;;
 }
 
-h2 {
-    font-size: 30px;
+#navbar h2 {
+    font-size: 40px;
     
 }
 
 /*navbar*/
 #navbar {
-    background-color: #ed1e24;
-    color: white;
+    background-color: #3E7C84;
+    color: #F4D47D;
     padding: 0 15px;
     height: 60px;
 }
@@ -30,6 +41,8 @@ h2 {
     margin-top: 12px;
     height: 60px;
     margin-left: 55px;
+    font-family: 'Augusta';
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
     
 }
 
@@ -53,6 +66,8 @@ h2 {
 #navbar-list li a {
     text-decoration: none;
     color: white;
+    font-family: 'Dalelands';
+    font-size: 25px;
 }
 
 #navbar-list a:hover {
@@ -61,7 +76,7 @@ h2 {
 
 #main-banner {
     height: 70vh;
-    background-image: url('../img/bg-projeto.jpg');
+    background-image: url('../img/fundo_dragao.jpg');
     background-size: cover;
     padding-top: 15vh;
     background-attachment: fixed;
@@ -72,32 +87,42 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: white;
+    color: #F4D47D;
     padding: 50px;
+    
+}
+
+#banner-info h1 {
+    font-family: 'Augusta';
+    color: #3E7C84;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
 }
 
 #banner-info img {
     height: 120px;
     border-radius: 50%;
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.562);
     margin-top: 30px;
     margin-bottom: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
 }
 
 #banner-info p {
-    background-color: #ed1e24;
+    background-color: #3E7C84;
     font-weight: bold;
-    width: 200px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
+    font-family: 'Dalelands';
 
 }
 
 #about-section {
     text-align: center;
-    background-color: #ed1e24;
+    background-color: #3E7C84;
     color: white;
     padding: 50px;
     height: 350px;
@@ -225,7 +250,7 @@ h2 {
 /*footer*/
 footer {
     padding: 50px 0;
-    background-color: red;
+    background-color: #3E7C84;
     color: white;
     text-align: center;
 }
