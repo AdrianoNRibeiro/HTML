@@ -13,10 +13,23 @@
     src: url(../fonts/Dalelands\ Uncial.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'Riffic';
+    src: url(../fonts/RifficFree-Bold.ttf) format('truetype');
+}
+
 /*Geral*/
 * {
     margin: 0;
     font-family: 'Roboto', sans-serif;;
+}
+
+body {
+    background-image: url('../img/fundo_dragao.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 #navbar h2 {
@@ -65,13 +78,13 @@
 
 #navbar-list li a {
     text-decoration: none;
-    color: white;
+    color: #F4D47D;
     font-family: 'Dalelands';
     font-size: 25px;
 }
 
 #navbar-list a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 4px double #F4D47D;
 }
 
 #main-banner {
@@ -97,12 +110,13 @@
     color: #3E7C84;
     font-size: 50px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+    letter-spacing: 5px;
 }
 
 #banner-info img {
     height: 120px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.562);
+    border-radius: 0 0 50px 50px;
+    background-color: rgba(0, 0, 0, 0.479);
     margin-top: 30px;
     margin-bottom: 30px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.329);
@@ -110,6 +124,7 @@
 
 #banner-info p {
     background-color: #3E7C84;
+    border-radius: 50px 0 50px 0;
     font-weight: bold;
     width: 250px;
     margin-left: auto;
@@ -117,19 +132,25 @@
     padding: 15px;
     box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.445);
     font-family: 'Dalelands';
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+    font-size: 20px;
 
 }
 
 #about-section {
     text-align: center;
     background-color: #3E7C84;
-    color: white;
+    color: #F4D47D;
     padding: 50px;
     height: 350px;
 }
 
 #about-section h2 {
     margin-bottom: 20px;
+    font-family: 'Dalelands';
+    letter-spacing: 5px;
+    font-size: 33px;
 }
 
 #about-section p {
@@ -137,6 +158,10 @@
     margin-left: auto;
     margin-right: auto;
     line-height: 30px;
+    font-family: 'Riffic';
+    letter-spacing: 5px;
+    font-size: 25px;
+    
 }
 
 #skill-section {
@@ -147,18 +172,24 @@
     width: 80%;
     border: 1px solid #ddd;
     border-radius: 10px;
+   
+    
+    
 }
 
 #skill-section .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+    
 }
 
 .skills-container {
     flex: 1 1 1;
     text-align: center;
     padding: 60px 25px;
+    
 }
 
 .central {
@@ -167,52 +198,74 @@
 }
 
 .skills-container h3 {
-    color: red;
+    color: #3E7C84;
     font-size: 20px;
+    font-family: 'Riffic';
     margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
 }
 
 .skills-container img {
     height: 60px;
     padding: 15px;
     margin-bottom: 25px;
-    border-top: 1px solid red;
-    border-left: 1px solid red;
-    border-bottom: 4px solid red;
-    border-right: 4px solid red;
+    border-top: 1px solid #3E7C84;
+    border-left: 1px solid #3E7C84;
+    border-bottom: 4px solid #3E7C84;
+    border-right: 4px solid #3E7C84;
 
 }
 
 .skills-container .subtitle {
     font-weight: bold;
-    color: red;
+    font-family: 'Riffic';
+    color: #3E7C84;
     margin-top: 50px;
     margin-bottom: 15px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
     
 }
 
 .skills-container p {
     line-height: 25px;
+    font-family: 'Riffic';
+    color: #d4b45d;
+    letter-spacing: 2px;
+    
 }
 
 /*Jobs*/
 #jobs-section {
     text-align: center;
     padding-top: 50px;
+    background-color: #3E7C84;
 }
 
 #jobs-section h2 {
-    color: #ed1e24;
+    color: #F4D47D;
+    font-family: 'Riffic';
+    font-size: 30px;
+    letter-spacing: 3px;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
 }
 
 #jobs-section p {
     margin-bottom: 50px;
+    font-family: 'Riffic';
+    letter-spacing: 3px;
+    color: #F4D47D;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192)
 }
 
 #jobs-section a {
     font-weight: bold;
-    color: #ed1e24;
+    color: #0d3035;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192);
+    text-decoration: underline wavy;
 }
 
 .job-container {
@@ -231,12 +284,13 @@
     margin-right: 25px;
     height: 300px;
     background-size: cover;
-    border-bottom: 2px solid red;
-    border-right: 2px solid red;
+    border-bottom: 2px solid #3E7C84;
+    border-right: 2px solid #3E7C84;
 }
 
 .proj1 {
-    background-image: url('../img/proj1.jpg');
+    background-image: url('../img/site_extincao.png');
+    background-position: center;
 }
 
 .proj2 {
@@ -251,8 +305,9 @@
 footer {
     padding: 50px 0;
     background-color: #3E7C84;
-    color: white;
+    color: #F4D47D;
     text-align: center;
+    
 }
 
 footer img {
@@ -260,14 +315,28 @@ footer img {
     margin: 30px 0;
 }
 
+footer h2 {
+    font-family: 'Riffic';
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192)
+}
+
 footer p {
     margin-top: 25px;
+    font-family: 'Riffic';
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.192)
 }
 
 footer form {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer img {
+    background-color: #d4b45d;
+    border-radius: 50%;
 }
 
 footer input, footer textarea {
@@ -277,11 +346,31 @@ footer input, footer textarea {
     margin-bottom: 20px;
     width: 100%;
     display: block;
+    border-radius: 50px 0 0 0;
+    border: 1px solid #F4D47D;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.479); 
+}
+
+footer input:hover, footer textarea:hover {
+    border: 1px solid #0d1d1f;
 }
 
 footer .detail {
     font-weight: bold;
 }
+
+#botao {
+    border-radius: 50px 0 50px 0;
+    background-color: #F4D47D;
+    color: #3E7C84;
+    font-family: 'Riffic';
+    letter-spacing: 3px;
+    font-size: 15px;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.205);
+    
+}
+
+
 
 /*responsivo*/
 
