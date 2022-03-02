@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*imports*/
+
+@font-face {
+    font-family: 'fontTitle';
+    src: url(../fonts/Broken\ World.otf) format('opentype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Blood';
+    src: url(../fonts/bloodcrow.ttf) format('truetype');
+    font-style: normal;
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /*Colors*/
+    --corTitle: #BC442D;
+
+}
+
+header {
+    background-image: linear-gradient(to top, black, grey, black);
+    height: 70px;
+}
+
+header h1 {
+    font-family: 'Blood';
+    color: var(--corTitle);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.534);
+    letter-spacing: 5px;
+    font-size: 1.9em;
+}
+
+header p {
+    margin-top: 6px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.534);
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
