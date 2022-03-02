@@ -182,11 +182,35 @@ div > p {
 
 }
 
-@media(max-width:200px) {
+@media(max-width:420px) {
     
+    body {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
+    }
+    
+
+    header {
+        width: 100%;
+        
+    }
+
+    #menu {
+        width: 100%;
+    }
+
     header > h1#titulo {
         font-size: 3rem;
+        
     }
+
+    #destruction, #destructio02, #destruction03 {
+        width: 50%;
+    }
+    
 
     header > p {
         font-size: 1rem;
@@ -197,7 +221,7 @@ div > p {
     }
 
     nav > ul > li > a {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     h1#capitulo {
