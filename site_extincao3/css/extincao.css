@@ -16,6 +16,18 @@
     font-weight: 300;
 }
 
+@font-face {
+    font-family: 'SpartanR';
+    src: url(../fonts/LeagueSpartan-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'SpartanB';
+    src: url(../fonts/LeagueSpartan-Bold.ttf) format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +37,10 @@
     /*Colors*/
     --corTitle: #BC442D;
 
+}
+
+body {
+    background-color: gray;
 }
 
 header {
@@ -38,17 +54,17 @@ header h1 {
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.534);
     letter-spacing: 5px;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 header p {
     margin-top: 6px;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.534);
-    font-size: 1.3em;
+    font-size: 1.6em;
     text-align: center;
     letter-spacing: 2px;
-    font-weight: bold;
+    font-family: 'SpartanB';
 }
 
 img {
@@ -56,8 +72,9 @@ img {
 }
 
 #menu-bar {
-    background-color: rgba(0, 0, 0, 0.363);
-    width: 350px;
+    padding-top: 70px;
+    background-color: rgba(0, 0, 0, 0.856);
+    width: 200px;
     left: -350px;
     height: 100vh;
     position: absolute;
@@ -82,10 +99,11 @@ label {
     color: var(--corTitle);
     font-family: 'fontTitle';
     text-decoration: none;
+    font-size: 1.8em;
 }
 
 #menu-bar a:hover {
-    border-bottom: 1px solid var(--corTitle);
+    border-bottom: 3px solid var(--corTitle);
 }
 
 input[type="checkbox"] {
@@ -95,3 +113,56 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked ~ #menu-bar {
     transform: translateX(350px);
 }
+
+.livro {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0.678);
+    background-image: url(../imagens/fundo_destruido.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    filter: contrast(80%);
+    padding: 20px 0px 20px 0px;
+    
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 10px;
+    width: 320px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 20px;
+}
+
+#content h2 {
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    color: black;
+    font-family: 'SpartanB';
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+#content p {
+    font-family: 'SpartanR';
+    font-size: 1.6em;
+    text-align: justify;
+    text-indent: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
+    color: black;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.number-page {
+    font-family: 'SpartanB';
+    margin: 10px;
+    padding-left: 260px;
+}
+
