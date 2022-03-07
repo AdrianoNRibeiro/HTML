@@ -166,3 +166,15 @@ input[type="checkbox"]:checked ~ #menu-bar {
     padding-left: 260px;
 }
 
+footer {
+    background-color: black;
+    height: 100px;
+    flex: auto;
+    bottom: auto;
+    
+    
+}
+
+footer p {
+    color: white;
+}
