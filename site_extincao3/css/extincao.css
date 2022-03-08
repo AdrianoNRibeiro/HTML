@@ -130,6 +130,7 @@ input[type="checkbox"]:checked ~ #menu-bar {
     margin-top: 70px;
     background-color: rgba(0, 0, 0, 0.678);
     background-image: url(../imagens/fundo_destruido.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
