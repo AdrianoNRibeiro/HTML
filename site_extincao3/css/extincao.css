@@ -79,6 +79,7 @@ img {
     height: 100vh;
     position: absolute;
     transition: all .5s;
+    
 }
 
 label {
@@ -158,19 +159,19 @@ input[type="checkbox"]:checked ~ #menu-bar {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
     color: black;
     font-family: 'SpartanB';
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-top: 30px;
 }
 
 .content p {
     font-family: 'SpartanR';
-    font-size: 1.6em;
+    font-size: 1.3em;
     text-align: justify;
     text-indent: 15px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.295);
     color: black;
     padding: 10px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .number-page {
