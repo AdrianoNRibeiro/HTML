@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo transições em CSS</title>
+    <link rel="stylesheet" href="transition.css">
+</head>
+<body>
+    <h1>Transições</h1>
+    <h2>Hover</h2>
+    <section>
+        <div class="item blue transitionBackground">
+            <p>Azul</p>
+        </div>
+        <div class="item yellow transitionBackground">
+            <p>Amarelo</p>
+        </div>
+        <div class="item green transitionSize">
+            <p>Verde</p>
+        </div>
+        <div class="item red transitionRotate">
+            <p>Vermelho</p>
+        </div>
+        
+    </section>
+    <hr>
+    <h2>Transition Delay</h2>
+    <section>
+        <div class="item red transitionDelay">
+            <p>Vermelho</p>
+        </div>
+    </section>
+    <hr>
+    <h2>Checked</h2>
+    <section>
+        <input type="checkbox" class="transitionCheckbox">
+        <input type="radio" name="radio" class="transitionRadio">
+        <input type="radio" name="radio" class="transitionRadio">
+    </section>
+    <hr>
+    <h2>Focus</h2>
+    <section>
+        <input type="text" class="transitionText">
+    </section>
+
+</body>
+</html>
