@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 .blue {
     color: white;
     background-color: blue;
@@ -10,6 +11,7 @@
 .item {
     width: 100px;
     height: 100px;
+    text-align: center;
 }
 
 .animationFadeIn {
@@ -27,3 +29,33 @@
     animation-direction: reverse;
 }
 
+.animationFadeInFadeOut {
+    animation: fadeInFadeOut 2s linear infinite;
+}
+
+@keyframes fadeInFadeOut {
+    0% {opacity: 1;}
+    50% {opacity: 0.2;}
+    100% {opacity: 1;}
+}
+
+.spinner {
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    from {transform: rotateZ(0deg);}
+    to {transform: rotateZ(360deg);}
+}
+
+.animationSpinner {
+    animation: rotate 2s linear infinite;
+}
+
+.animationSpinnerEase {
+    animation: rotate 2s ease infinite;
+}
+
+.animationSpinnerEaseOut {
+    animation: rotate 2s ease-out infinite;
+}
