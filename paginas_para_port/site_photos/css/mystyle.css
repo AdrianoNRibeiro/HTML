@@ -19,6 +19,10 @@ h1, h2, h3 {
     border-radius: 3px;
 }
 
+.botao:hover {
+    transform: scale(1.2);
+}
+
 /*Navegação*/
 nav {
     display: flex;
@@ -31,8 +35,12 @@ nav > a {
     text-decoration: none;
     color: #fff;
     font-weight: 800;
-    font-size: 32px;
+    font-size: 2.5em;
     font-family: Yellowtail, serif;
+}
+
+nav > a:hover {
+    transform: scale(1.5);
 }
 
 nav > ul {
@@ -56,6 +64,11 @@ nav > ul > li > a {
     width: 100%;
     text-decoration: none;
     color: #fff;
+    font-size: 1.5em;
+}
+
+nav > ul > li > a:hover {
+    color: rgb(124, 124, 216);
 }
 
 /*Cabecalho*/
@@ -135,6 +148,11 @@ header > p {
     width: 100%;
 }
 
+#fotos img:hover {
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
 /*Contato*/
 
 #contato {
@@ -161,16 +179,31 @@ footer a {
     color: #00ffff;
 }
 
+footer a:hover {
+    color: #8b8bc5;
+    
+}
+
 @media screen and (min-width: 768px) {
     /*nav*/
     nav {
         flex-direction: row;
         justify-content: space-around;
     }
+    
+    nav a {
+        font-size: 2em;
+    }
 
     nav ul {
         flex-direction: row;
         width: 70%;
+    }
+
+
+
+    nav ul a {
+        font-size: 1.4em;
     }
 
     /*cabecalho*/
