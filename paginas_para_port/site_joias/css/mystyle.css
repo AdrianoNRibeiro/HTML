@@ -101,5 +101,97 @@ section .container {
     font-family: 'Bebas Neue', cursive;
     color: #b48c56;
     letter-spacing: 5px;
+}
 
+#home .container .content .button {
+    padding-top: 200px;
+}
+
+#home .container .content .button button {
+    font-family: 'Belleza', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    background: #b48c56;
+    color: #f0f8ff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#home .container .content .button button:hover {
+    transform: scale(1.1);
+}
+
+#home .container .content button.btn2 {
+    background: #302725;
+    padding: 15px 20px;
+    position: relative;
+    right: 5px;
+}
+
+/*BRANCH*/
+
+#branch .container {
+    background: url(../imagens/bg3.png);
+    background-size: 100% 100%;
+}
+
+#branch .container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+#branch .container .title .line {
+    width: 190px;
+    height: 2px;
+    background: #b48c56;
+}
+
+#branch .container .title h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin-top: 20px;
+}
+
+#branch .container .content {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#branch .container .content .box {
+    width: 25%;
+    height: 60vh;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#branch .container .box h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    letter-spacing: 8px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background: #b48c56;
+    padding: 5px 10px;
+    color: #f0f8ff;
+    border-radius: 5px;
+
+}
+
+#branch .container .box img {
+    width: 120px;
 }
