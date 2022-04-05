@@ -176,7 +176,7 @@ section .container {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 #branch .container .box h3 {
@@ -194,4 +194,147 @@ section .container {
 
 #branch .container .box img {
     width: 120px;
+}
+
+#branch .container .box h1 {
+    font-size: 2rem;
+    font-family: 'Belleza', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 20px;
+}
+
+#branch .container .box p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+    color: #b48c56;
+    margin-top: 60px;
+}
+
+#branch .container .box button {
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    background: #302725;
+    color: #f0f8ff;
+    margin-top: 50px;
+    cursor: pointer;
+    transform: translateY(-40px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+#branch .container .box:hover button {
+    transform: translate(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+/*ABOUT*/
+#about .container {
+    background: url(../imagens/bg2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#about .container .title {
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+#about .container .title .line {
+    width: 150px;
+    height: 2px;
+    background: #b48c56;
+}
+
+#about .container .title h1 {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 15px;
+}
+
+#about .container .title .call {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+#about .container .title .call h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    letter-spacing: 10px;
+}
+
+#about .container .title .call p {
+    font-size: 1.3rem;
+    font-family: 'Belleza', sans-serif;
+    letter-spacing: 1px;
+}
+
+#about .container .title .call button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: none;
+    background: #302725;
+    color: #f0f8ff;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#about .container .title .call button:hover {
+    transform: scale(1);
+    border: 2px solid #302725;
+    background: none;
+    color: #302725;
+    font-weight: 600;
+}
+
+/*PRODUCTS*/
+
+#products .container {
+    background: url(../imagens/bg3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#products .container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#products .container .title .line {
+    width: 150px;
+    height: 2px;
+    background: #b48c56;
+}
+
+#products .container .title h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    margin-top: 20px;
 }
