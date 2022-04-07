@@ -1,0 +1,20 @@
+$('.card').owlCarousel({
+    margin:20,
+    loop:true,
+    autoplayTimeOut:2000,
+    autoplayHoverPauser:true,
+    responsive:{
+        0:{
+            itens:1,
+            nav:false
+        },
+        500:{
+            itens:2,
+            nav:false
+        },
+        1440:{
+            itens:3,
+            nav:false
+        }
+    }
+})
