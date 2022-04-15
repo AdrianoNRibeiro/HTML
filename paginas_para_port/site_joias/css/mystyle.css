@@ -511,6 +511,12 @@ section .container {
     justify-content: center;
     flex-direction: column;
     margin-top: 120px;
+    transition: all 0.3s ease;
+}
+
+#news .container .content .box:hover {
+    background: rgba(48, 39, 37, 0.9);
+    height: 60vh;
 }
 
 #news .container .content .box h3 {
@@ -538,6 +544,10 @@ section .container {
     color: #737373;
 }
 
+#news .container .content .box:hover h1 {
+    color: #f0f8ff;
+}
+
 #news .container .content .box p {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.2rem;
@@ -551,6 +561,21 @@ section .container {
     padding: 10px 20px;
     border: none;
     background: #b48c56;
+    color: #f0f8ff;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    transform: translateX(-40px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#news .container .content .box:hover button {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
 }
 
 
