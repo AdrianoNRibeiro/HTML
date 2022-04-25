@@ -578,4 +578,124 @@ section .container {
     visibility: visible;
 }
 
+/*FOOTER*/
+
+#footer .container {
+    background: url(../imagens/bg3.png) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer .container .content {
+    width: 90%;
+    height: 40vh;
+    background: #f2d2a3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer .container .content .left {
+    width: 40%;
+    margin-left: 60px;
+}
+
+#footer .container .content .left h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.2rem;
+    font-weight: 200;
+    padding: 0 20px;
+    letter-spacing: 5px;
+}
+
+#footer .container .content .left p {
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+#footer .container .content .right {
+    width: 40%;
+}
+
+#footer .container .content .right input {
+    padding: 10px 60px;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+#footer .container .content .right button {
+    padding: 10px 35px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    border: none;
+    background: #302725;
+    color: #f0f8ff;
+    cursor: pointer;
+}
+
+#footer .container .info {
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+#footer .container .info .box {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .container .info .box h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer .container .info .box p, #footer .container .info .box a {
+    font-family: 'Belleza', sans-serif;
+    margin-top: 10px;
+    color: #737373;
+    text-decoration: none;
+}
+
+#footer .container .info .box ion-icon {
+    font-size: 1.6rem;
+}
+
+#footer .container .info .box ion-icon:hover {
+    color: #b48c56;
+}
+
+#footer .container .line {
+    width: 80%;
+    height: 1px;
+    background: #b48c56;
+    margin-top: 60px;
+}
+
+#footer .container .copyright {
+    font-family: 'Belleza', sans-serif;
+    margin-top: 25px;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #302725;
+}
+
+/*RESPONSIVE*/
+
+
+
+
 
