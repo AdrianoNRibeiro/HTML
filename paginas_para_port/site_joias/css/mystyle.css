@@ -767,6 +767,86 @@ section .container {
         color: #f2d2a3;
         text-decoration: underline;
     }
+
+    header .btn {
+        display: block;
+        position: fixed;
+        right: 40px;
+    }
+
+    header .btn ion-icon {
+        color: #b48c56;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #home .container {
+        background-size: 105% 100%;
+    }
+
+    #home .container .content {
+        width: 70%;
+    }
+
+    #home .container .content h1 {
+        font-size: 2rem;
+    }
+
+    #home .container .content p {
+        font-size: 1.1rem;
+    }
+
+    #home .container .content span {
+        font-size: 2rem;
+    }
+
+    #home .container .content .button {
+        padding-top: 70px;
+    }
+
+    #home .container .content .button button {
+        font-size: 1.1rem;
+    }
+
+    #branch .container .content .box {
+        width: 28%;
+    }
+
+    #branch .container .box button {
+        padding: 8px 18px;
+        margin-top: 15px;
+    }
+
+    #about .container .title {
+        width: 80%;
+        padding-top: 60px;
+    }
+    #about .container .title h1 {
+        font-size: 1.1rem;
+    }
+
+    #about .container .title .call {
+        width: 60%;
+        top: 60px;
+        left: 90px;
+    }
+
+    #about .container .title .call h2 {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    #about .container .title .call p {
+        font-size: 1.2rem;
+    }
+
+    #products .container .card {
+        width: 80%;
+    }
+
+    #products .container .card .box {
+        padding: 200px 0;
+    }
 }
 
 
