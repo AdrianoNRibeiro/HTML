@@ -847,6 +847,73 @@ section .container {
     #products .container .card .box {
         padding: 200px 0;
     }
+
+    #team .container .content .image img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #news .container .content .box h3 {
+        font-size: 1.1rem;
+    }
+
+    #news .container .content .box img {
+        width: 100px;
+    }
+
+    #news .container .content .box h1 {
+        font-size: 1.2rem;
+    }
+
+    #news .container .content .box p {
+        font-size: 1.1rem;
+    }
+
+    #news .container .box button {
+        padding: 8px 18px;
+        font-size: 1.1rem;
+    }
+
+    #footer .container .content .left p {
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+
+    #footer .container .content .right button {
+        margin-left: 50px;
+    }
+
+    #footer .container .info .box ion-icon {
+        font-size: 1.2rem;
+    }
+
+    #footer .container .copyright p {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 412px) {
+        header .menu-mobile {
+            width: 210px;
+        }
+
+        header .menu-mobile ul li a {
+            font-size: 1rem;
+        }
+
+        #home .container .content {
+            width: 90%;
+        }
+
+        #home .container .content h1 {
+            font-size: 1.5rem;
+        }
+
+        #home .container .content p {
+            font-size: 0.9rem;
+        }
+    }
+
+
 }
 
 
