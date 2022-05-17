@@ -50,3 +50,30 @@ for (i in lista) {
 
 /*console.log("Olá Mundo!");*/
 
+
+/*JQuery*/
+/*$(seletor).ação();*/
+
+/*$(function(){
+    $('button').click(function(){
+        $('h1').hide();
+    })
+});*/
+
+/*$(function(){
+    $('button').click(function(){
+        $('#olamundo').css("color", "red")
+    });
+});*/
+
+$(function(){
+    $('#azul').click(function(){
+        $('.msg').css("color", "blue")
+    });
+
+    $('#vermelho').click(function(){
+        $('.msg').css("color", "red")
+    });
+});
+
+
