@@ -48,4 +48,5 @@ for (i in lista) {
     alert(lista[i]);
 }*/
 
-console.log("Olá Mundo!");
+/*console.log("Olá Mundo!");*/
+
