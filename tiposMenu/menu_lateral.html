@@ -10,8 +10,8 @@
 </head>
 <body>
     <input type="checkbox" id="check">
-    <label for="check">
-        <img src="imagens/risco_menu.png" alt="menu hamburger">
+    <label for="check" id="check">
+        <img src="imagens/risco_menu.png"  alt="menu hamburger" class="menu">
     </label>
     <nav id="menu">
         <ul>
@@ -31,13 +31,41 @@
             </header>
         </div>
     </div>
-    <h1 id="olamundo">Olá mundo!</h1>
-    <button>Esconder Olá mundo!</button>
-    <br>
-    <p class="msg">Mensagem 1</p>
-    <p class="msg">Mensagem 2</p>
-    <button id="azul">Azul</button>
-    <button id="vermelho">Vermelho</button>
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+        
+        
+            <div class="slide">
+                <img src="imagens/batman.jpg" alt="Batman" class="img-slide">
+            </div>
+            <div class="slide">
+                <img src="imagens/aranha.jpg" alt="Homem Aranha" class="img-slide">
+            </div>
+            <div class="slide">
+                <img src="imagens/baku.jpg" alt="Bakugo" class="img-slide">
+            </div>
+            <div class="slide">
+                <img src="imagens/ferro.jpg" alt="Homem de Ferro" class="img-slide">
+            </div>
+            <div class="slide">
+                <img src="imagens/kimetsu.png" alt="Kimetsu no Yaba" class="img-slide">
+            </div>
+        </div>
+
+        <div class="navigation">
+            <label for="slide1" class="bar"></label>
+            <label for="slide2" class="bar"></label>
+            <label for="slide3" class="bar"></label>
+            <label for="slide4" class="bar"></label>
+            <label for="slide5" class="bar"></label>
+        </div>  
+
+    </div>
 
 
 

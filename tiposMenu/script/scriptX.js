@@ -66,7 +66,7 @@ for (i in lista) {
     });
 });*/
 
-$(function(){
+/*$(function(){
     $('#azul').click(function(){
         $('.msg').css("color", "blue")
     });
@@ -74,6 +74,8 @@ $(function(){
     $('#vermelho').click(function(){
         $('.msg').css("color", "red")
     });
-});
+});*/
+
+
 
 
