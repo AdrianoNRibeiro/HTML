@@ -132,5 +132,12 @@ label {
     color: inherit;
     border-radius: 2px;
     cursor: pointer;
+    border: none;
 
+}
+
+@media (max-width: 450px) {
+    form {
+        width: 88%;
+    }
 }

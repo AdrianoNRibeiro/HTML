@@ -891,9 +891,9 @@ section .container {
         font-size: 1rem;
     }
 
-    @media screen and (max-width: 412px) {
+    @media screen and (max-width: 450px) {
         header .menu-mobile {
-            width: 210px;
+            width: 100px;
         }
 
         header .menu-mobile ul li a {
