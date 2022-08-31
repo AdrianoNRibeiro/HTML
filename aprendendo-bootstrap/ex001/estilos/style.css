@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+h1 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
 .coluna {
     border: 1px solid black;
     text-align: center;
